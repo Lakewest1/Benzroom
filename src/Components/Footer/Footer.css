@@ -1,0 +1,865 @@
+.Footer{
+  background-color:silver;
+  margin-top: 0px;
+  color: black;
+}
+.top{
+  display: flex;
+  justify-content:space-between;
+ 
+}
+.top a{
+  display: block;
+  margin-bottom: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.top h1{
+  font-size: 35px;
+}
+.subscribe{
+  height: 20vh;
+  
+}
+hr {
+  font-weight: 700px;
+  font-size: 28px;
+  background-color: black;
+}
+.input-link input{
+  padding: 10px 49px;
+  border-top: none;
+  border-right: none;
+ border-left: none;
+ background-color: silver;
+
+
+}
+.input a{
+  background-color: black;
+  padding: 10px 45px;
+  color: white;
+  text-decoration: none;
+  font-size: 27px;
+  border-radius: 10px;
+
+}
+.input-link{
+  display: flex;
+  justify-content: space-between;
+    margin-top: 3%;
+  
+}
+.link{
+  margin-right: 2%;
+  width: 30%;
+
+}
+.link a{
+  margin-left: 15%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+   font-family: outfit;
+
+}
+.bottom{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+.bottom-top{
+  display: flex;
+  align-items: center;
+  
+}
+.bottom-top img{
+  width: 10%;
+  margin-right: 5%;
+}
+.bottom-right{
+  display: flex;
+  width: 100%;
+  
+}
+.bottom-right p{
+  margin-right: 2%;
+  font-family: outfit;
+}
+.last-text{
+  display: flex;
+  gap: 10%;
+   font-family: outfit;
+   width: 100%;
+   margin: auto;
+   font-size: 18px;
+}
+.Lakewest{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+  padding: 10px;
+}
+.Lakewest p{
+  font-family: Roboto;
+  font-size: 20px;
+
+}
+.Lakewest img{
+  border-radius: 50%;
+  height: 20vh;
+  width: 10%;
+
+}
+@media (max-width:400px) {
+.top{
+  display: flex;
+  gap: 2%;
+  width: 90%;
+  padding-top: 2%;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+ 
+}
+.top a{
+  display: block;
+  margin-bottom: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 70%;
+  font-family: Roboto;
+  margin-left: 5%;
+}
+.top h1{
+  font-size: 70%;
+  padding: 10px;
+}
+.subscribe{
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.subscribe h1{
+  font-size: 22px;
+  margin-top: 10%;
+  width: 50%;
+  font-family: Roboto;
+  margin-left: 2%;
+ 
+}
+.subscribe p{
+  font-style: oblique;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+hr {
+  font-weight: 700px;
+  font-size: 28px;
+  background-color: black;
+}
+.input-link{
+  margin-top: 5%;
+ 
+}
+
+.input-link input{
+  padding: 5px 2px;
+  border-top: none;
+  border-right: none;
+ border-left: none;
+ background-color: silver;
+ margin-bottom: 10%;
+ margin-left: 2%;
+
+}
+.input-link a{
+  background-color: red;
+  font-size: 20px;
+
+}
+.link{
+  margin-right: 2%;
+  width: 80%;
+
+
+}
+.link a{
+  margin-left: 3%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 10px;
+  text-decoration: none;
+   font-family: outfit;
+
+
+}
+.bottom{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 25px;
+}
+.bottom-top{
+  margin-bottom: 5%;
+
+}
+.bottom img{
+ 
+  width: 20%;
+  border-radius: 50%;
+}
+.bottom-top p{
+  font-size: 15%;
+  background-color: black;
+  color: silver;
+  padding: 5px;
+  border-radius: 10px;
+
+ 
+}
+.bottom-right p{
+  font-size: 15px;
+}
+.last-text{
+  display: inline;
+  font-size: 13px;
+  
+}
+.last-text a{
+  margin-right: 5%;
+  opacity: 0.8;
+
+}
+.Lakewest{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 60px;
+ 
+  
+}
+.Lakewest p{
+  font-family: Roboto;
+  font-size: 80%;
+  margin-bottom: 3%;
+
+}
+.Lakewest img{
+  width: 10%;
+  height: 15vh;
+  display: none;
+}
+  
+}
+@media (min-width:401px) and (max-width:600px) {
+ .top{
+  display: flex;
+  gap: 2%;
+  width: 90%;
+  padding-top: 2%;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+ 
+}
+.top a{
+  display: block;
+  margin-bottom: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 70%;
+  font-family: Roboto;
+  margin-left: 5%;
+}
+.top h1{
+  font-size: 80%;
+  padding: 10px;
+}
+.subscribe{
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.subscribe h1{
+  font-size: 22px;
+  margin-top: 10%;
+  width: 50%;
+  font-family: Roboto;
+  margin-left: 2%;
+ 
+}
+.subscribe p{
+  font-style: oblique;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+hr {
+  font-weight: 700px;
+  font-size: 28px;
+  background-color: black;
+}
+.input-link{
+  margin-top: 5%;
+ 
+}
+
+.input-link input{
+  padding: 5px 2px;
+  border-top: none;
+  border-right: none;
+ border-left: none;
+ background-color: silver;
+ margin-bottom: 10%;
+ margin-left: 2%;
+
+}
+.input-link a{
+  background-color: red;
+  font-size: 20px;
+
+}
+.link{
+  margin-right: 2%;
+  width: 80%;
+ 
+
+}
+.link a{
+  margin-left: 5%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 10px;
+  text-decoration: none;
+   font-family: outfit;
+
+}
+.bottom{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 25px;
+}
+.bottom-top{
+  margin-bottom: 5%;
+
+}
+.bottom img{
+  width: 17%;
+  border-radius: 50%;
+ 
+}
+.bottom-top p{
+  font-size: 15%;
+  background-color: black;
+  color: silver;
+  padding: 5px;
+  border-radius: 10px;
+
+ 
+}
+.bottom-right p{
+  font-size: 15px;
+}
+.last-text{
+  display: inline;
+  font-size: 13px;
+  
+}
+.last-text a{
+  margin-right: 0.8rem;
+  opacity: 0.8;
+
+}
+.Lakewest{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 60px;
+  
+}
+.Lakewest p{
+  font-family: Roboto;
+  font-size: 80%;
+  align-items: center;
+
+
+}
+.Lakewest img{
+  width: 10%;
+  height: 15vh;
+  display: none;
+}
+  
+}
+@media (min-width:601px) and (max-width:768px) {
+ .top{
+  display: flex;
+  gap: 2%;
+  width: 90%;
+  padding-top: 2%;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+ 
+}
+.top a{
+  display: block;
+  margin-bottom: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: Roboto;
+  margin-left: 5%;
+}
+.top h1{
+  font-size: 23px;
+  padding: 10px;
+}
+.subscribe{
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+}
+.subscribe h1{
+  font-size: 22px;
+  margin-top: 10%;
+  width: 50%;
+  font-family: Roboto;
+  margin-left: 2%;
+ 
+}
+.subscribe p{
+  font-style: oblique;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+hr {
+  font-weight: 700px;
+  font-size: 28px;
+  background-color: black;
+}
+.input-link{
+  margin-top: 2%;
+}
+.input-link input{
+  padding: 5px 2px;
+  border-top: none;
+  border-right: none;
+ border-left: none;
+ background-color: silver;
+ margin-bottom: 10%;
+ margin-left: 2%;
+
+
+}
+.input-link a{
+  background-color: red;
+  font-size: 20px;
+
+}
+.link{
+  margin-right: 2%;
+  width: 80%;
+ 
+
+}
+.link a{
+  margin-left: 5%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+   font-family: outfit;
+
+}
+.bottom{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 25px;
+}
+.bottom-top{
+  margin-bottom: 5%;
+
+}
+.bottom img{
+  width: 20%;
+  border-radius: 50%;
+}
+.bottom-top p{
+  font-size: 15%;
+  background-color: black;
+  color: silver;
+  padding: 5px;
+  border-radius: 10px;
+
+ 
+}
+.bottom-right p{
+  font-size: 15px;
+}
+.last-text{
+  display: inline;
+  font-size: 13px;
+  
+}
+.last-text a{
+  margin-right: 5%;
+  opacity: 0.8;
+
+}
+.Lakewest{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 60px;
+  
+}
+.Lakewest p{
+  font-family: Roboto;
+  font-size: 80%;
+  align-items: center;
+
+
+}
+.Lakewest img{
+  width: 10%;
+  height: 15vh;
+  display: none;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+  .Footer{
+    width: 100%;
+    margin: auto;
+    
+  }
+  .top{
+  display: flex;
+  gap: 5px;
+  width: 95%;
+  padding-top: 2%;
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+ 
+}
+.top a{
+  display: block;
+  margin-bottom: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 80%;
+  font-family: Roboto;
+  
+ 
+
+}
+.top h1{
+  font-size: 90%;
+  padding: 10px;
+}
+.subscribe{
+  width: 100%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: auto;
+}
+.subscribe h1{
+  font-size: 34px;
+  margin-top: 3%;
+  margin-left: 1%;
+
+}
+.input a{
+  font-size: 29px;
+  margin-left: 3%;
+  
+}
+.subscribe p{
+  font-style: oblique;
+  font-size: 25px;
+  font-family: poppins;
+   margin-left: 1%;
+ 
+  
+}
+hr {
+  
+  font-size: 28px;
+  background-color: black;
+}
+.input-link{
+  margin-top: 5%;
+}
+.input-link input{
+  padding: 5px;
+  border-top: none;
+  border-right: none;
+ border-left: none;
+ background-color: silver;
+ margin-bottom: 10%;
+ margin-left: 5%;
+ font-size: 25px;
+
+ 
+
+}
+.link{
+  margin-right: 2%;
+  width: 190%;
+  margin-left: 25%;
+  font-size: 80%;
+
+}
+.link a{
+  margin-left: 5%;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  text-decoration: none;
+   font-family: outfit;
+   gap: 22%;
+
+}
+.bottom{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 25px;
+}
+.bottom img{
+  font: 25px;
+}
+.bottom-top{
+  margin-bottom: 5%;
+}
+.bottom-top p{
+  font-size: 100%;
+  padding: 10px;
+
+ 
+}
+.bottom-right p{
+  font-size: 150%;
+
+}
+.last-text{
+  display: inline-block;
+   width: 100%;
+  
+}
+.last-text a{
+  margin-right: 5%;
+  opacity: 0.8;
+  font-size: 70%;
+  padding: 5px;
+  
+
+}
+.Lakewest{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 60px;
+  
+}
+.Lakewest p{
+  font-family: Roboto;
+  font-size: 80%;
+  margin-top: 1px;
+  letter-spacing: 1px;
+  
+
+}
+.fa-heart{
+  margin-right: 3 px;
+  margin-left: 3px;
+ 
+
+}
+.Lakewest img{
+  width: 20%;
+  height: 6px;
+  display: none;
+}
+}
+@media (min-width:993px) and (max-width:1200px) {
+   .top{
+  display: flex;
+  gap: 2%;
+  width: 90%;
+  padding-top: 2%;
+  width: 100%;
+  margin: auto;
+ 
+}
+.top a{
+  display: block;
+  margin-bottom: 10%;
+  text-decoration: none;
+  color: black;
+  font-size: 80%;
+  font-family: Roboto;
+  margin-left: 5%;
+ 
+}
+.top h1{
+  font-size: 100%;
+  padding: 10px;
+}
+.subscribe{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: auto;
+}
+.subscribe h1{
+  font-size: 22px;
+  margin-top: 3%;
+}
+.subscribe p{
+  font-style: oblique;
+}
+hr {
+  font-weight: 700px;
+  font-size: 28px;
+  background-color: black;
+}
+.input-link{
+  margin-top: 4%;
+}
+.input-link input{
+  padding: 5px 2px;
+  border-top: none;
+  border-right: none;
+ border-left: none;
+ background-color: silver;
+ margin-bottom: 10%;
+ 
+
+}
+.link{
+  margin-right: 2%;
+  width: 190%;
+  margin-left: 35%;
+
+}
+.link a{
+  margin-left: 5%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  text-decoration: none;
+   font-family: outfit;
+   gap: 22%;
+
+}
+.bottom{
+  background-color: white;
+  width: 100%;
+  margin: auto;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 25px;
+}
+.bottom-top{
+  margin-bottom: 2%;
+}
+.bottom-top p{
+  font-size: 25%;
+ 
+}
+.bottom-right p{
+  font-size: 15px;
+
+
+}
+.last-text{
+  display: inline;
+  font-size: 13px;
+   width: 100%;
+  
+}
+.last-text a{
+  margin-right: 5%;
+  opacity: 0.8;
+  font-size: 15px;
+ 
+
+}.Lakewest{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 60px;
+  
+}
+.Lakewest p{
+  font-family: Roboto;
+  font-size: 120%;
+  margin-top: 1px;
+  
+
+}
+.Lakewest img{
+  width: 20%;
+  height: 6px;
+  display: none;
+}
+}
+
+

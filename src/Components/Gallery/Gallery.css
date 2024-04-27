@@ -1,0 +1,149 @@
+.Gallery{
+  width: 100%;
+  background-color: black;
+  margin-top: 10%;
+  height: 290vh;
+  margin-bottom: 5%;
+
+}
+.Gallery h1{
+  text-align: center;
+  color: silver;
+  font-size: 42px;
+  font-family: Roboto;
+  border: 5px double silver;
+  margin-top: 3%;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+
+.first{
+  display: flex;
+}
+.first img{
+  width: 50%;
+  height: 20%;
+  margin: 0px;
+}
+.Gallery-second{
+  margin-top: 0px;
+}
+.Gallery-second img{
+  width: 70%;
+}
+@media (max-width:400px) {
+  .Gallery{
+  width: 100%;
+  background-color: black;
+  margin-top: 50%;
+  height:670px;
+  margin-bottom: 50%;
+
+}
+.Gallery h1{
+  text-align: center;
+  color: silver;
+  font-size: 28px;
+  font-family: Roboto;
+  border: 5px double silver;
+  margin-top: 3%;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+  
+}
+@media (min-width:401px) and (max-width:600px) {
+   .Gallery{
+  width: 100%;
+  background-color: black;
+  margin-top: 10%;
+  height:670px;
+  margin-bottom: 50%;
+
+}
+.Gallery h1{
+  text-align: center;
+  color: silver;
+  font-size: 28px;
+  font-family: Roboto;
+  border: 5px double silver;
+  margin-top: 3%;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+}
+@media (min-width:601px) and (max-width:768px) {
+ .Gallery{
+  width: 100%;
+  background-color: black;
+  margin-top: 10%;
+  height:1150px;
+  margin-bottom: 10%;
+  margin: auto;
+
+}
+.Gallery h1{
+  text-align: center;
+  color: silver;
+  font-size: 28px;
+  font-family: Roboto;
+  border: 5px double silver;
+  margin-top: 3%;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+} 
+}
+@media (min-width:769px) and (max-width:992px) {
+   .Gallery{
+  width: 100%;
+  background-color: black;
+  margin-top: 50%;
+  height:950px;
+  margin-bottom: 50%;
+  margin: auto;
+
+}
+.Gallery h1{
+  text-align: center;
+  color: silver;
+  font-size: 39px;
+  font-family: Roboto;
+  border: 5px double silver;
+  margin-top: 3%;
+  padding: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+} 
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .Gallery{
+  width: 100%;
+  background-color: black;
+  margin-top: 50%;
+  height:950px;
+  margin-bottom: 50%;
+  margin: auto;
+
+}
+.Gallery h1{
+  text-align: center;
+  color: silver;
+  font-size: 28px;
+  font-family: Roboto;
+  border: 5px double silver;
+  margin-top: 3%;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+} 
+}

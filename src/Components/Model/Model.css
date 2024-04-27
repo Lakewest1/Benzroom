@@ -1,0 +1,623 @@
+.Model{
+  background-color: black;
+  margin-top: 15%;
+  color: silver;
+  height: 70vh;
+}
+.Model h1{
+  text-align: center;
+  font-size: 39px;
+  font-family: poppins;
+}
+.up{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: auto;
+  text-align: center;
+  gap: 120px;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.up a{
+  color: silver;
+  text-decoration: none;
+  font-size: 26px;
+
+}
+.display{
+  width: 100%;
+  display: flex;
+ 
+}
+.display img{
+  width: 50%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.display1{
+  display: flex;
+  width: 100%;
+}
+.display1 p{
+  font-size: 25px;
+  text-align: center;
+  padding: 40px;
+}
+hr{
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+  width: 50%;
+  color: aliceblue;
+  align-items: center;
+ 
+}
+.Build{
+  padding: 10px;
+  background-color: red;
+  margin-bottom: 15%;
+  display: block;
+  width: 35%;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  text-decoration: none;
+  border-radius: 60px;
+}
+.view{
+  padding: 10px;
+  background-color:silver;
+  margin-bottom: 15%;
+  display: block;
+  width: 35%;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 26px;
+  text-decoration: none;
+  border-radius: 60px;
+}
+.num{
+  font-size: 45px;
+  margin-top: 5%;
+  font-family: Roboto;
+  margin-bottom: 5%;
+}
+.fig{
+  opacity: 0.7;
+}
+@media (max-width:400px) {
+  .Model{
+  background-color: black;
+  margin-top: 15%;
+  color: silver;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+ 
+  
+}
+.Model h1{
+  text-align: center;
+  font-size: 24px;
+  font-family: poppins;
+  margin-bottom: 5%;
+}
+.up{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: auto;
+  text-align: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 5%;
+  width: 93%;
+  font-size: 5px;
+  
+}
+.up a{
+  color: silver;
+  text-decoration: none;
+  font-size: 14px;
+
+}
+.display{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.display img{
+  width: 80%;
+  text-align: center;
+   margin: auto;
+  
+}
+.display1{
+  display: flex;
+  width: 100%;
+}
+.display1 p{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+hr{
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+  width: 80%;
+  color: aliceblue;
+  align-items: center;
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+ 
+}
+.Build{
+  padding: 10px;
+  background-color: red;
+  margin-bottom: 15%;
+  display: block;
+  width: 35%;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+}
+.view{ 
+  background-color:silver;
+  margin-bottom: 15%;
+  display: block;
+  width: 45%;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+  padding: 5px;
+}
+.num{
+  font-size: 40px;
+  margin-top: 5%;
+  font-family: Roboto;
+  margin-bottom: 5%;
+}
+.fig{
+  opacity: 0.7;
+}
+  
+}
+@media (min-width:401px) and (max-width:600px) {
+  .Model{
+  background-color: black;
+  margin-top: 15%;
+  color: silver;
+  height: 715px;
+ 
+  
+}
+.Model h1{
+  text-align: center;
+  font-size: 24px;
+  font-family: poppins;
+  margin-bottom: 5%;
+}
+.up{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: auto;
+  text-align: center;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.up a{
+  color: silver;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+.display{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.display img{
+  width: 80%;
+  text-align: center;
+   margin: auto;
+  
+}
+.display1{
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+.display1 p{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+hr{
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+  width: 80%;
+  color: aliceblue;
+  align-items: center;
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-between;
+ 
+}
+.Build{
+  padding: 10px;
+  background-color: red;
+  margin-bottom: 15%;
+  display: block;
+  width: 35%;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+}
+.view{ 
+  background-color:silver;
+  margin-bottom: 15%;
+  display: block;
+  width: 45%;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+  padding: 5px;
+}
+.num{
+  font-size: 45px;
+  margin-top: 5%;
+  font-family: Roboto;
+  margin-bottom: 5%;
+}
+.fig{
+  opacity: 0.7;
+}
+  
+}
+@media (min-width:601px) and (max-width:768px) {
+   .Model{
+  background-color: black;
+  margin-top: 100px;
+  color: silver;
+  height: 750px;
+  margin-bottom: 5%;
+ 
+  
+}
+.Model h1{
+  text-align: center;
+  font-size: 24px;
+  font-family: poppins;
+  margin-bottom: 5%;
+}
+.up{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: auto;
+  text-align: center;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.up a{
+  color: silver;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+.display{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.display img{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  
+}
+.display1{
+  display: flex;
+  width: 100%;
+}
+.display1 p{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+hr{
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+  width: 70%;
+  color: aliceblue;
+  align-items: center;
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-around;
+ 
+}
+.Build{
+  padding: 10px;
+  background-color: red;
+  margin-bottom: 15%;
+  display: block;
+  width: 25%;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+}
+.view{ 
+  background-color:silver;
+  margin-bottom: 15%;
+  display: block;
+  width: 25%;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+  padding: 5px;
+}
+.num{
+  font-size: 45px;
+  margin-top: 5%;
+  font-family: Roboto;
+  margin-bottom: 5%;
+}
+.fig{
+  opacity: 0.7;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+  .Model{
+  background-color: black;
+  margin-top: 70%;
+  color: silver;
+  height: 940px;
+  margin-bottom: 20%; 
+}
+.Model h1{
+  text-align: center;
+  font-size: 39px;
+  font-family: poppins;
+  margin-bottom: 5%;
+  background-color: silver;
+  color: black;
+}
+.up{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: auto;
+  text-align: center;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.up a{
+  color: silver;
+  text-decoration: none;
+  font-size: 24px;
+  
+  
+
+}
+.display{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.display img{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.display1{
+  display: flex;
+  width: 100%;
+}
+.display1 p{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+hr{
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+  width: 80%;
+  color: aliceblue;
+  align-items: center;
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-around;
+ 
+}
+.Build{
+  padding: 10px;
+  background-color: red;
+  margin-bottom: 15%;
+  display: block;
+  width: 25%;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+}
+.view{ 
+  background-color:silver;
+  margin-bottom: 15%;
+  display: block;
+  width: 25%;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+  padding: 5px;
+  padding-right: 10px;
+}
+.num{
+  font-size: 45px;
+  margin-top: 5%;
+  font-family: Roboto;
+  margin-bottom: 5%;
+}
+.fig{
+  opacity: 0.7;
+}
+}
+@media (min-width:993px) and (max-width:1200px) {
+   .Model{
+  background-color: black;
+  margin-top: 80%;
+  color: silver;
+  height: 1100px;
+  margin-bottom: 20%; 
+}
+.Model h1{
+  text-align: center;
+  font-size: 32px;
+  font-family: poppins;
+  margin-bottom: 5%;
+}
+.up{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: auto;
+  text-align: center;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.up a{
+  color: silver;
+  text-decoration: none;
+  font-size: 23px;
+
+}
+.display{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.display img{
+  width: 60%;
+  text-align: center;
+}
+.display1{
+  display: flex;
+  width: 100%;
+}
+.display1 p{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+hr{
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+  width: 80%;
+  color: aliceblue;
+  align-items: center;
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-around;
+ 
+}
+.Build{
+  padding: 10px;
+  background-color: red;
+  margin-bottom: 15%;
+  display: block;
+  width: 20%;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+}
+.view{ 
+  background-color:silver;
+  margin-bottom: 15%;
+  display: block;
+  width: 20%;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 60px;
+  padding: 5px;
+  padding-right: 10px;
+}
+.num{
+  font-size: 75px;
+  margin-top: 5%;
+  font-family: Roboto;
+  margin-bottom: 5%;
+}
+.fig{
+  opacity: 0.7;
+  font-size: 20px;
+}
+}

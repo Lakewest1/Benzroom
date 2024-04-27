@@ -1,0 +1,193 @@
+.Section8{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  
+  
+}
+.Gear{
+  display: flex;
+}
+.Gear img{
+  width: 120%;
+  border-radius: 60px;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+.Section8 h1{
+  font-size: 42px;
+  padding: 10px;
+  font-family: outfit;
+  margin-bottom: 1%;
+
+}
+.brake p{
+  font-size: 24px;
+  width: 100%;
+
+  font-family: poppins;
+}
+@media (max-width:400px) {
+  .Section8{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.Gear{
+  display: flex;
+  flex-direction: column;
+}
+.Gear img{
+  width: 80%;
+  height: 100%;
+  border-radius: 60px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: auto;
+  
+}
+.Section8 h1{
+  font-size: 25px;
+  padding: 10px;
+  font-family: outfit;
+  margin-bottom: 3%;
+  font-style: oblique;
+
+}
+.Gear p{
+  font-size: 18px;
+  font-family: sans-serif;
+  color: silver;
+  padding-bottom: 10px;
+  margin-top: 20px;
+
+}
+}
+@media (min-width:401px) and (max-width:600px) {
+  .Gear{
+  display: flex;
+  flex-direction: column;
+}
+  .Gear img{
+  width: 95%;
+  border-radius: 60px;
+  align-items: center;
+  margin-bottom: 40px;
+  margin: auto;
+  
+}
+.Section8 h1{
+  font-size: 25px;
+  padding: 10px;
+  font-family: outfit;
+  margin-bottom: 3%;
+  font-style: oblique;
+
+}
+.Gear p{
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-top: 1rem;
+  
+}
+  
+}
+@media (min-width:601px) and (max-width:768px) {
+   .Gear{
+  display: flex;
+  flex-direction: column;
+}
+  .Gear img{
+  width: 65%;
+  border-radius: 60px;
+  align-items: center;
+  margin-bottom: 25px;
+  margin: auto;
+  
+}
+.Section8 h1{
+  font-size: 25px;
+  padding: 10px;
+  font-family: outfit;
+  margin-bottom: 3%;
+
+
+}
+.brake p{
+  font-size: 18px;
+  padding: 10px;
+  width: 95%;
+  margin: auto;
+  color: silver;
+  padding-bottom: 25px;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+   .Gear{
+  display: flex;
+  flex-direction: column;
+}
+  .Gear img{
+  width: 60%;
+  border-radius: 60px;
+  align-items: center;
+  margin-bottom: 25px;
+  margin: auto;
+  
+}
+.Section8 h1{
+  font-size: 30px;
+  padding: 10px;
+  font-family: outfit;
+  margin-bottom: 3%;
+  font-style: oblique;
+  background-color: silver;
+  color: black;
+
+}
+.brake p{
+  font-size: 19px;
+  padding: 10px;
+  width: 95%;
+  margin: auto;
+  color: silver;
+  padding-bottom: 25px;
+  line-height: 26px;
+  padding-top: 20px;
+  font-family: sans-serif;
+
+ 
+}
+}
+@media (min-width:993px) and (max-width:1200px) {
+   .Gear{
+  display: flex;
+  flex-direction: column;
+}
+  .Gear img{
+  width: 55%;
+  border-radius: 60px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: auto;
+  
+}
+.Section8 h1{
+  font-size: 29px;
+  padding: 10px;
+  font-family: outfit;
+  margin-bottom: 3%;
+  font-style: oblique;
+
+}
+.brake p{
+  font-size: 23px;
+  padding: 20px;
+  width: 95%;
+  margin: auto;
+  line-height: 30px;
+}
+}

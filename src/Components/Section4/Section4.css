@@ -1,0 +1,178 @@
+.Section4{
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  
+}
+.Section4 h1{
+  font-size: 30px;
+  background-color: silver;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 3%;
+  font-family: poppins;
+}
+.Section4 p{
+  font-size: 23px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 3%;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+.Section4 img{
+  width: 100%;
+
+}
+@media (max-width:400px) {
+  .Section4{
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  padding-top: 10%;
+}
+.Section4 h1{
+  font-size: 22px;
+  background-color: silver;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 3%;
+  font-family: poppins;
+  text-shadow: 0px 10px 10px black;
+  padding: 10px;
+  margin-bottom: 6%;
+}
+.Section4 p{
+  font-size: 18px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 3%;
+  font-family: sans-serif;
+  line-height: 23px;
+  color: silver;
+}
+.Section4 img{
+  width: 90%;
+
+}
+  
+}
+@media (min-width:401px) and (max-width:600px) {
+   .Section4{
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.Section4 h1{
+  font-size: 22px;
+  background-color: silver;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 3%;
+  font-family: poppins;
+  text-shadow: 0px 10px 10px black;
+  padding: 10px;
+  margin-bottom: 6%;
+}
+.Section4 p{
+ font-size: 18px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 3%;
+  font-family: sans-serif;
+  line-height: 23px;
+  color: silver;
+}
+}
+@media (min-width:601px) and (max-width:768px) {
+     .Section4{
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.Section4 h1{
+  font-size: 22px;
+  background-color: silver;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 3%;
+  font-family: poppins;
+  text-shadow: 0px 10px 10px black;
+  padding: 10px;
+  
+}
+.Section4 p{
+   font-size: 19px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 3%;
+  font-family: sans-serif;
+  line-height: 23px;
+  color: silver;
+  padding: 20px;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+  .Section4{
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.Section4 h1{
+  font-size: 24px;
+  background-color: silver;
+  color: black;
+  margin-top: 0px;
+  font-family: poppins;
+  text-shadow: 0px 10px 10px black;
+  padding: 10px;
+  margin-bottom: 3%;
+}
+.Section4 p{
+  font-size: 20px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 3%;
+  font-family: sans-serif;
+  line-height: 25px;
+  color: silver;
+}
+}
+ @media (min-width:993px) and (max-width:1200px) {
+    .Section4{
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.Section4 h1{
+  font-size: 26px;
+  background-color: silver;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 3%;
+  font-family: poppins;
+  text-shadow: 0px 10px 10px black;
+  padding: 10px;
+  margin-bottom: 6%;
+}
+.Section4 p{
+   font-size: 25px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 3%;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: silver;
+}
+ }
