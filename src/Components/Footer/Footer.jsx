@@ -5,7 +5,7 @@ import image18 from '../../assets/lakewest.jpg'
 
 const Footer = () => {
   return (
-    <div className='Footer'>
+    <div className='Footer' id='Footer'>
       <div className="top">
         <div className="Vehicles">
           <h1>Vehicles</h1>

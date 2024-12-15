@@ -1,5 +1,5 @@
 import React from 'react';
-import { createRoot } from 'react-dom'; // Correct import statement for createRoot
+import { createRoot } from 'react-dom/client'; // Correct import statement for createRoot
 import App from './App.jsx';
 import './index.css';
 

@@ -10,6 +10,7 @@
   border-radius: 50%;
   object-fit: contain;
   font-style: outfit;
+ 
   
   
 }
@@ -73,18 +74,22 @@
   }
   .navbar .fa-bars{
     color: white;
+    
   }
   .navbar{
     margin-top: 0px;
     padding-top:0px;
     background-color: black;
-    height: 40px;
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: auto;
     
    
+  }
+  #navbar{
+    background-color: black;
+    height: 40px;
   }
   .logo{
     width: 100%;
@@ -106,7 +111,7 @@
     display: flex;
     background-color: black;
     width: 100%;
-    height: 450px;
+    max-height: 100%;
     right: -100%;
     gap: 1px;
     z-index: 15;
@@ -114,6 +119,7 @@
     flex-direction: column;
     align-items: center;
     opacity: 0.9;
+   
  
    }
    .List .fa-times{
@@ -127,8 +133,8 @@
     margin-right: 15%;
    }
     .nav-list a{
-      background-color:yellow;
-      font-size: 17px;
+      background-color:wheat;
+      font-size: 70%;
       align-items: center;
       margin-left: 0px;
       margin-right: 0px;
@@ -139,6 +145,7 @@
       align-items: center;
       z-index: 5;
       text-decoration: none;
+      color: black;
     }
    .navbar .fa-times{
     color: yellow;

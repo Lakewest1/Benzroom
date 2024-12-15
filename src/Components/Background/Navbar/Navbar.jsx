@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar">
+    <div className="navbar" id='navbar'>
       <div className="logo">
         <img src={logo3} alt="logo" />
         <br />
@@ -26,11 +26,11 @@ const Navbar = () => {
           <a href="#" onClick={closeNav}>
             <i className="fa fa-times" />
           </a>
-          <a href="" className='Ant'>Home</a>
-          <a href="" className='Ant'>Order</a>
-          <a href="" className='Ant'>About</a>
-          <a href="" className='Ant'>Gallery</a>
-          <a href="" className='Ant'>Contact</a>
+          <a onClick={closeNav} href="#Home" className='Ant'>Home</a>
+          <a onClick={closeNav} href="#Latest" className='Ant'>Latest</a>
+          <a onClick={closeNav} href="#Drive" className='Ant'>About</a>
+          <a onClick={closeNav} href="#Gallery" className='Ant'>Gallery</a>
+          <a onClick={closeNav} href="#Footer" className='Ant'>Contact</a>
         </ul>
       </div>
       <a href="#" onClick={openNav}>

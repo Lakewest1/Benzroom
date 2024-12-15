@@ -10,18 +10,18 @@ import image19 from '../../assets/Gallery4.jpg'
 
 const Gallery = () => {
   return (
-    <div className='Gallery'>
+    <div className='Gallery' id='Gallery'>
        <h1>Gallery</h1>
       <div className="first">
         <div className="col">
-      <img src={image12} alt="" />
-      <img src={image15} alt="" />
-      <img src={image16} alt="" />
-      <img src={image17} alt="" />
-        <img src={image18} alt="" />
-          <img src={image19} alt="" />
-           <img src={ image13} alt="" />
-        <img src={image14} alt="" />
+      <img src={image12} alt="" className='img-big' />
+      <img src={image15} alt="" className='img-big'/>
+      <img src={image16} alt=""  className='img-big'/>
+      <img src={image17} alt=""  className='img-big'/>
+        <img src={image18} alt=""  className='img-big'/>
+          <img src={image19} alt=""  className='img-big'/>
+           <img src={ image13} alt=""  className='img-big' />
+        <img src={image14} alt=""  className='img-big'/>
         </div>
           
       </div>

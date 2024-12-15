@@ -13,6 +13,9 @@ import Gallery from './Components/Gallery/Gallery';
 import Section8 from './Components/Gear/Gear';
 import Model from './Components/Model/Model';
 import Footer from './Components/Footer/Footer';
+import SubscribeForm from '../SubscribeForm';
+
+
 
 const App = () => {
   let heroData = [
@@ -48,16 +51,27 @@ const App = () => {
         playStatus={playStatus}
       />
       <Latest/>
-      <Section2/>
+      <hr />
+      <Section2 />
+      <hr />
       <Section3 />
+      <hr />
       <Section4 />
+      <hr />
       <Section5 />
-      <Section6/>
+      <hr />
+      <Section6 />
+      <hr />
       <Section7 />
-      <Section8/>
-      <Gallery/>
+      <hr />
+      <Section8 />
+      <hr />
+      <Gallery />
+      <hr />
       <Model />
-      <Footer/>
+      <hr />
+      <Footer />
+     
       
 
       

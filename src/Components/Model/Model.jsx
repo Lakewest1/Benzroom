@@ -3,8 +3,8 @@ import image16 from '../../assets/35 SUV.jpg'
 
 const Model = () => {
   return (
-    <div className='Model'>
-      <h1>Model line up</h1>
+    <div className='Model' id='mode'>
+      <h1 id='Models'>Model line up</h1>
       <div className="up">
         <a href="">AMG GLA 35 SUV</a>
          <a href="">$56,450 MSRP</a>

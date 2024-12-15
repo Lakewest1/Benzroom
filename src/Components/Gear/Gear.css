@@ -13,7 +13,10 @@
   width: 120%;
   border-radius: 60px;
   align-items: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-self: center;
+  
   
 }
 .Section8 h1{
@@ -26,6 +29,7 @@
 .brake p{
   font-size: 24px;
   width: 100%;
+  padding: 20px;
 
   font-family: poppins;
 }
