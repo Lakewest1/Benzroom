@@ -9,11 +9,13 @@ import Section4 from './Components/Section4/Section4';
 import Section5 from './Components/Section5/Section5';
 import Section6 from './Components/Section6/Section6';
 import Section7 from './Components/Section7/Section7';
+
 import Gallery from './Components/Gallery/Gallery';
 import Section8 from './Components/Gear/Gear';
 import Model from './Components/Model/Model';
 import Footer from './Components/Footer/Footer';
 import SubscribeForm from '../SubscribeForm';
+import PracticeScroll from './Components/PracticeScroll/PracticeScroll';
 
 
 
@@ -65,7 +67,8 @@ const App = () => {
       <Section7 />
       <hr />
       <Section8 />
-      <hr />
+      
+      <PracticeScroll/>
       <Gallery />
       <hr />
       <Model />
