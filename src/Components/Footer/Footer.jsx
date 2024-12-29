@@ -99,7 +99,7 @@ const Footer = () => {
       <div className="Lakewest">
         <p>Made with <i className="fa fa-heart"></i> by Olalekan Ismail
           | L@kewe$t |</p>
-        <img src={image18} alt="" />
+        
         </div>
         
       

@@ -96,7 +96,7 @@ hr{
 @media (max-width:400px) {
   .Model{
   background-color: black;
-  margin-top: 15%;
+  margin-top: 5%;
   color: silver;
   height: 100%;
   width: 100%;
@@ -137,6 +137,7 @@ hr{
 }
 .display img{
   width: 50%;
+  height: 50%;
   text-align: center;
    margin: auto;
   

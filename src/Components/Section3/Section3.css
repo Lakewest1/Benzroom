@@ -1,7 +1,7 @@
 .Engine2{
   display: flex;
   justify-content: space-around;
-  background-color: black;
+  background-color: transparent;
   color: black;
   align-items: center;
 }
@@ -11,6 +11,7 @@
   line-height: 30px;
   font-family: roboto;
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
   
 }
 .right3{
@@ -38,16 +39,17 @@
 .left-text{
   width: 95%;
   font-size: 100%;
-  line-height: 23px;
+  line-height: 30px;
   font-family: Roboto;
   padding: 20px;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 18px;
   margin-bottom: 0%;
+  border-radius: 10px;
 }
 .right3{
-  width: 95%;
+  width: 100%;
   margin: auto;
   margin-top: 0%;
   padding: 0px;
@@ -77,11 +79,11 @@ border-radius: 20px;
 .left-text{
   width: 90%;
   font-size: 100%;
-  line-height: 23px;
+  line-height: 30px;
   font-family: Roboto;
   padding: 20px;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 18px;
   margin-bottom: 5%;
 }
@@ -113,16 +115,16 @@ border-radius: 20px;
 .left-text{
   width: 90%;
   font-size: 100%;
-  line-height: 23px;
+  line-height: 30px;
   font-family: Roboto;
   padding: 20px;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 19px;
   margin-bottom: 0%;
 }
 .right3{
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 0%;
     
@@ -152,17 +154,17 @@ border-radius: 20px;
 }
 .left-text p{
   width: 100%;
-  line-height: 23px;
+  line-height: 30px;
   font-family: Roboto;
   padding: 20px;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 19px;
   margin-bottom: 0%;
 
 }
 .right3{
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 0%;
     
@@ -186,18 +188,18 @@ border-radius: 20px;
   margin: auto;
 }
 .left-text{
-  width: 90%;
+  width: 100%;
   line-height: 23px;
   font-family: Roboto;
   padding: 20px;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 21px;
   margin-bottom: 0%;
   line-height: 30px;
 }
 .right3{
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 0%;
     

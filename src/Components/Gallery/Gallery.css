@@ -66,17 +66,17 @@ h1 {
   .Gallery{
   width: 100%;
   background-color: black;
-  margin-top: 50%;
-  height:670px;
-  margin-bottom: 50%;
+  margin-top: 10%;
+  height:100%;
+  margin-bottom: 0%;
 
 }
 .Gallery h1{
   text-align: center;
-  color: silver;
+  color: white;
   font-size: 28px;
   font-family: Roboto;
-  border: 5px double silver;
+  
   margin-top: 3%;
   padding: 10px;
   padding-bottom: 0px;
@@ -91,13 +91,13 @@ h1 {
  
 }
 .first img{
-  width: 70%;
+  width: 300px;
   height: 110%;
  
  
 }
 .col>.img-big{
-  height: 80%;
+  height: 600px;
 
 }
 
@@ -117,7 +117,7 @@ h1 {
   width: 100%;
   background-color: black;
   margin-top: 10%;
-  height:670px;
+  height:100%;
   margin-bottom: 50%;
 
 }
@@ -126,7 +126,7 @@ h1 {
   color: silver;
   font-size: 28px;
   font-family: Roboto;
-  border: 5px double silver;
+ 
   margin-top: 3%;
   padding: 10px;
   padding-bottom: 0px;
@@ -139,7 +139,7 @@ h1 {
   width: 100%;
   background-color: black;
   margin-top: 10%;
-  height:1150px;
+  height:100%;
   margin-bottom: 10%;
   margin: auto;
 
@@ -149,7 +149,7 @@ h1 {
   color: silver;
   font-size: 28px;
   font-family: Roboto;
-  border: 5px double silver;
+ 
   margin-top: 3%;
   padding: 10px;
   padding-bottom: 0px;
@@ -169,10 +169,10 @@ h1 {
 }
 .Gallery h1{
   text-align: center;
-  color: silver;
+  color: white;
   font-size: 39px;
   font-family: Roboto;
-  border: 5px double silver;
+
   margin-top: 3%;
   padding: 20px;
   padding-bottom: 0px;

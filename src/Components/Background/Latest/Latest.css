@@ -263,9 +263,10 @@ to{
   margin: auto;
   text-align: center;
   padding: 10px;
-  background-color: tr;
+  background-color: transparent;
   border: none;
   border-radius: 10px;
+  
   
   
 }
